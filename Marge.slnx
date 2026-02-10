@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Marge.Cache/Marge.Cache.csproj" />
+    <Project Path="src/Marge.Optimiser/Marge.Optimiser.csproj" />
+    <Project Path="src/Marge.Record/Marge.Record.csproj" />
+    <Project Path="src/Marge/Marge.csproj" />
+  </Folder>
+</Solution>

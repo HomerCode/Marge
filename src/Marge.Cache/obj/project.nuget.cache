@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SGZEpYzy76g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Cache\\Marge.Cache.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\patrikas\\.nuget\\packages\\polysharp\\1.15.0\\polysharp.1.15.0.nupkg.sha512"
+  ],
+  "logs": []
+}

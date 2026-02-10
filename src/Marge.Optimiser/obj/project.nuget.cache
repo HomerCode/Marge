@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RlG1vem/+1k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Optimiser\\Marge.Optimiser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\patrikas\\.nuget\\packages\\magick.net-q16-anycpu\\14.10.2\\magick.net-q16-anycpu.14.10.2.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\magick.net.core\\14.10.2\\magick.net.core.14.10.2.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\polysharp\\1.15.0\\polysharp.1.15.0.nupkg.sha512"
+  ],
+  "logs": []
+}
