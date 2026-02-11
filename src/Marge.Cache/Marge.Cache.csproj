@@ -18,4 +18,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Marge.Optimiser\Marge.Optimiser.csproj" />
+    <ProjectReference Include="..\Marge.Record\Marge.Record.csproj" />
+  </ItemGroup>
+
 </Project>

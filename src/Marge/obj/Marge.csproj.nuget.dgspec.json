@@ -31,7 +31,14 @@
         "frameworks": {
           "net48": {
             "targetAlias": "net48",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Optimiser\\Marge.Optimiser.csproj": {
+                "projectPath": "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Optimiser\\Marge.Optimiser.csproj"
+              },
+              "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Record\\Marge.Record.csproj": {
+                "projectPath": "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Record\\Marge.Record.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -57,7 +64,7 @@
               "version": "[1.15.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -107,6 +114,10 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
+            "Magick.NET-Q16-AnyCPU": {
+              "target": "Package",
+              "version": "[14.10.2, )"
+            },
             "PolySharp": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -114,7 +125,7 @@
               "version": "[1.15.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -179,7 +190,7 @@
               "version": "[1.15.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -239,6 +250,10 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
+            "Microsoft.Web.Infrastructure": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "PolySharp": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -246,7 +261,7 @@
               "version": "[1.15.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

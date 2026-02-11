@@ -1,10 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "SGZEpYzy76g=",
+  "dgSpecHash": "ksOlXT9riOs=",
   "success": true,
   "projectFilePath": "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Cache\\Marge.Cache.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\patrikas\\.nuget\\packages\\polysharp\\1.15.0\\polysharp.1.15.0.nupkg.sha512"
+    "C:\\Users\\patrikas\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\magick.net-q16-anycpu\\14.10.2\\magick.net-q16-anycpu.14.10.2.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\magick.net.core\\14.10.2\\magick.net.core.14.10.2.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.1\\microsoft.bcl.asyncinterfaces.9.0.1.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\microsoft.data.sqlite\\10.0.2\\microsoft.data.sqlite.10.0.2.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.2\\microsoft.data.sqlite.core.10.0.2.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\polysharp\\1.15.0\\polysharp.1.15.0.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.11\\sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.11\\sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.1.11\\sqlitepclraw.provider.dynamic_cdecl.2.1.11.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\patrikas\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }
