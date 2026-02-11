@@ -4,6 +4,8 @@ namespace Marge;
 
 public class Module : IHttpModule
 {
+    private static readonly List<string> _extensions = ["webp", "avif", "png", "jpeg", "jpg"];
+
     public void Dispose()
     {
     }
@@ -12,10 +14,10 @@ public class Module : IHttpModule
     {
         Record.Manager.Init();
 
-        context.BeginRequest += (object sender, EventArgs e) =>
+        context.BeginRequest += (sender, e) =>
         {
             var lastSegment = context.Request.Url.Segments.Last();
-            if (!lastSegment.Contains(".")) return;
+            if (!lastSegment.Contains(".") && _extensions.Contains(lastSegment.Split('.').Last())) return;
 
             context.Context.Items["file.extension"] = lastSegment.Split('.').Last();
             context.Context.Items["file.basename"] = lastSegment.Split('.').First();
