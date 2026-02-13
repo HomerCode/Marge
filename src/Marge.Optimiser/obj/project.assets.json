@@ -73,6 +73,16 @@
         "build": {
           "buildTransitive/PolySharp.targets": {}
         }
+      },
+      "Marge.Hasher/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/Marge.Hasher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marge.Hasher.dll": {}
+        }
       }
     }
   },
@@ -138,11 +148,17 @@
         "polysharp.1.15.0.nupkg.sha512",
         "polysharp.nuspec"
       ]
+    },
+    "Marge.Hasher/1.0.0": {
+      "type": "project",
+      "path": "../Marge.Hasher/Marge.Hasher.csproj",
+      "msbuildProject": "../Marge.Hasher/Marge.Hasher.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
       "Magick.NET-Q16-AnyCPU >= 14.10.2",
+      "Marge.Hasher >= 1.0.0",
       "PolySharp >= 1.15.0"
     ]
   },
@@ -177,7 +193,11 @@
       "frameworks": {
         "net48": {
           "targetAlias": "net48",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Hasher\\Marge.Hasher.csproj": {
+              "projectPath": "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Hasher\\Marge.Hasher.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

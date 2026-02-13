@@ -133,7 +133,7 @@
           }
         }
       },
-      "Microsoft.Web.Infrastructure/2.0.0": {
+      "Microsoft.Web.Infrastructure/1.0.0": {
         "type": "package",
         "compile": {
           "lib/net40/Microsoft.Web.Infrastructure.dll": {}
@@ -370,12 +370,23 @@
           }
         }
       },
+      "WebActivatorEx/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/WebActivatorEx.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebActivatorEx.dll": {}
+        }
+      },
       "Marge.Cache/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.8",
         "dependencies": {
-          "Marge.Optimiser": "1.0.0",
-          "Marge.Record": "1.0.0"
+          "Marge.Data": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Marge.Cache.dll": {}
@@ -384,20 +395,7 @@
           "bin/placeholder/Marge.Cache.dll": {}
         }
       },
-      "Marge.Optimiser/1.0.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.8",
-        "dependencies": {
-          "Magick.NET-Q16-AnyCPU": "14.10.2"
-        },
-        "compile": {
-          "bin/placeholder/Marge.Optimiser.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Marge.Optimiser.dll": {}
-        }
-      },
-      "Marge.Record/1.0.0": {
+      "Marge.Data/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.8",
         "dependencies": {
@@ -405,10 +403,34 @@
           "Microsoft.Data.Sqlite": "10.0.2"
         },
         "compile": {
-          "bin/placeholder/Marge.Record.dll": {}
+          "bin/placeholder/Marge.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Marge.Record.dll": {}
+          "bin/placeholder/Marge.Data.dll": {}
+        }
+      },
+      "Marge.Hasher/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/Marge.Hasher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marge.Hasher.dll": {}
+        }
+      },
+      "Marge.Optimiser/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Magick.NET-Q16-AnyCPU": "14.10.2",
+          "Marge.Hasher": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Marge.Optimiser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marge.Optimiser.dll": {}
         }
       }
     }
@@ -536,17 +558,15 @@
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
-    "Microsoft.Web.Infrastructure/2.0.0": {
-      "sha512": "NA6F00drSYd4HZk7QcyMRz1EEdZQQpcdnt6DfNiurNcUNsmmRDpz9db2Bc3L3Lgo455BOSwNDuNjbhDLltKGKQ==",
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
       "type": "package",
-      "path": "microsoft.web.infrastructure/2.0.0",
+      "path": "microsoft.web.infrastructure/1.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "NET.icon.png",
-        "NET_Library_EULA_ENU.txt",
         "lib/net40/Microsoft.Web.Infrastructure.dll",
-        "microsoft.web.infrastructure.2.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
         "microsoft.web.infrastructure.nuspec"
       ]
     },
@@ -813,29 +833,46 @@
         "version.txt"
       ]
     },
+    "WebActivatorEx/2.2.0": {
+      "sha512": "LpTC82DGzFeqHjRGLvynZKRjjELcsED5f784N4IWEPZhPlJsVYQKVpxNUjNdcMV6YHMqRhEiqolr69UVaT4ciw==",
+      "type": "package",
+      "path": "webactivatorex/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/WebActivatorEx.dll",
+        "webactivatorex.2.2.0.nupkg.sha512",
+        "webactivatorex.nuspec"
+      ]
+    },
     "Marge.Cache/1.0.0": {
       "type": "project",
       "path": "../Marge.Cache/Marge.Cache.csproj",
       "msbuildProject": "../Marge.Cache/Marge.Cache.csproj"
     },
+    "Marge.Data/1.0.0": {
+      "type": "project",
+      "path": "../Marge.Data/Marge.Data.csproj",
+      "msbuildProject": "../Marge.Data/Marge.Data.csproj"
+    },
+    "Marge.Hasher/1.0.0": {
+      "type": "project",
+      "path": "../Marge.Hasher/Marge.Hasher.csproj",
+      "msbuildProject": "../Marge.Hasher/Marge.Hasher.csproj"
+    },
     "Marge.Optimiser/1.0.0": {
       "type": "project",
       "path": "../Marge.Optimiser/Marge.Optimiser.csproj",
       "msbuildProject": "../Marge.Optimiser/Marge.Optimiser.csproj"
-    },
-    "Marge.Record/1.0.0": {
-      "type": "project",
-      "path": "../Marge.Record/Marge.Record.csproj",
-      "msbuildProject": "../Marge.Record/Marge.Record.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
       "Marge.Cache >= 1.0.0",
+      "Marge.Data >= 1.0.0",
       "Marge.Optimiser >= 1.0.0",
-      "Marge.Record >= 1.0.0",
-      "Microsoft.Web.Infrastructure >= 2.0.0",
-      "PolySharp >= 1.15.0"
+      "PolySharp >= 1.15.0",
+      "WebActivatorEx >= 2.2.0"
     ]
   },
   "packageFolders": {
@@ -873,11 +910,11 @@
             "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Cache\\Marge.Cache.csproj": {
               "projectPath": "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Cache\\Marge.Cache.csproj"
             },
+            "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Data\\Marge.Data.csproj": {
+              "projectPath": "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Data\\Marge.Data.csproj"
+            },
             "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Optimiser\\Marge.Optimiser.csproj": {
               "projectPath": "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Optimiser\\Marge.Optimiser.csproj"
-            },
-            "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Record\\Marge.Record.csproj": {
-              "projectPath": "C:\\Users\\patrikas\\Programming\\Projects\\Marge\\src\\Marge.Record\\Marge.Record.csproj"
             }
           }
         }
@@ -898,15 +935,15 @@
       "net48": {
         "targetAlias": "net48",
         "dependencies": {
-          "Microsoft.Web.Infrastructure": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
           "PolySharp": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
             "version": "[1.15.0, )"
+          },
+          "WebActivatorEx": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\RuntimeIdentifierGraph.json"

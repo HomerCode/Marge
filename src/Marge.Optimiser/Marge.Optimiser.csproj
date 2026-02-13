@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Marge.Hasher\Marge.Hasher.csproj" />
+  </ItemGroup>
+
+
 </Project>

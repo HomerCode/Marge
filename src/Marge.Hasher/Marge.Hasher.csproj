@@ -18,8 +18,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Marge.Data\Marge.Data.csproj" />
-  </ItemGroup>
-
 </Project>

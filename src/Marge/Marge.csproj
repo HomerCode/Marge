@@ -3,15 +3,15 @@
   <ItemGroup>
     <ProjectReference Include="..\Marge.Cache\Marge.Cache.csproj" />
     <ProjectReference Include="..\Marge.Optimiser\Marge.Optimiser.csproj" />
-    <ProjectReference Include="..\Marge.Record\Marge.Record.csproj" />
+    <ProjectReference Include="..\Marge.Data\Marge.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Web.Infrastructure" Version="2.0.0" />
     <PackageReference Include="PolySharp" Version="1.15.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="WebActivatorEx" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
