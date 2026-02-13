@@ -52,8 +52,7 @@ public static class FileMaintenanceManager
 
     public static void Stop()
     {
-        if (_timer != null)
-            _timer.Dispose();
+        _timer?.Dispose();
     }
 }
 

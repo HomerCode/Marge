@@ -43,9 +43,8 @@ public class Handler : IHttpHandler
         using var cacheFile = File.Create(cachePath);
 
         image.Write(cacheFile);
+        image.Write(context.Response.OutputStream);
 
         AccessLogRepository.Add(cachePath);
-
-        context.Response.WriteFile(cachePath);
     }
 }
